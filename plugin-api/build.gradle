@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'me.bokov.webapp-plugin-system-poc'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'io.javalin:javalin:2.6.0'
+}

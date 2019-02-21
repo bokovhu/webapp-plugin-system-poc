@@ -1,0 +1,4 @@
+rootProject.name = 'webapp-plugin-system-poc'
+include 'plugin-api'
+include 'test-plugin'
+
